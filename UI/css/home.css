@@ -1,0 +1,69 @@
+/*----------------------------------CLIENT HOME CSS------------------------------------------*/
+
+.client-body{
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.header-nav{
+    float: right;
+    border-bottom: 2px solid #F0F0F0 ;
+}
+.header-nav img{
+    float:left;
+    width: 30%;
+}
+
+.header-nav nav{
+    float:right;
+    width: 70%;
+}
+
+.header-nav nav .li-first{
+    float:left;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 1.5%;
+    padding-left:5%;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-nav nav li a{
+    text-decoration: none;
+    color:#2E2E57;
+}
+
+.header-nav nav li a:hover {
+    color: #355ADF;
+}
+  
+.header-nav nav .li-logout{
+    float:right;
+    list-style: none;
+    margin-top: 2.5%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome-section p{
+    float: left;
+    width: 30%;
+    margin-top: 7%;
+    font-size: 25px;
+    line-height: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2E2E57;
+}
+
+.welcome-section p i{
+    font-size: 15px;
+    color: #355ADF;
+    font-weight: bolder;
+}
+
+.welcome-section img{
+    float:right;
+    width:60%;
+}   
