@@ -108,69 +108,53 @@ nav div:first-child h1, nav ul{
         margin-left:.5rem;
     }
 
-    .content{
-        float: right;
-    }
-    .content-A{
-        width: 40%;
-        float: left;
-    }
-
-    .content-A p{
-        padding-top:4rem;
-    }
-
-    .content-B{
-        width: 55%;
-        float: right;
-    }
-
-    .content-B img{
-        width:100%;
-    }
-
 }
 
-/*------------------------------STYLE FOR PAGE CONTENT-------------------------------------*/
-.content {
-    padding:.5rem;
+.s-content{
+    padding-top: 2rem;
+    float:left;
 }
 
-.content-A{
-    padding:.5rem;
+.s-content div{
+    width:18%;
+    border: 1px solid #F0F0F0;
+    padding: 1rem;
+    float: left;
+    margin-left:35px;
+    height:30%;
 }
 
-.content-A p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.s-content div p{
     color:#2E2E57;
-    font-size: 25px;
-    line-height: 2rem;
-}
-
-.content-A button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color: white;
-    background-color: #355ADF;
-    border: 0;
-    padding: 15px;
-    border-radius: .5em;
+    display: block;
+    line-height: 1;
+
 }
 
-.content-A button a{
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-
-.content-B{
-    padding:.5rem;
-}
-
-.content-B img{
+.s-content div img{
     width: 100%;
 }
 
-/*--------------------styling for footer---------------------------------*/
+.s-content div img hr{
+    color: #F0F0F0;
+}
+
+.s-content div button{
+    background-color: #355ADF;
+    border: 0;
+    padding: 10px;
+    border-radius: .5em;
+    margin-right: 1rem;
+}
+
+.s-content div button a{
+    font-weight: bold;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
 
 .footer p{
     text-align: center;

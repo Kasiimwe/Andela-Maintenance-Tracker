@@ -34,6 +34,7 @@ nav ul li button{
     margin-left:1rem;
 }
 
+
 /*-------------------Style logo-----------------------------*/
 
 nav div:first-child h1{
@@ -107,70 +108,63 @@ nav div:first-child h1, nav ul{
     nav ul li button{
         margin-left:.5rem;
     }
-
-    .content{
-        float: right;
-    }
-    .content-A{
-        width: 40%;
-        float: left;
-    }
-
-    .content-A p{
-        padding-top:4rem;
-    }
-
-    .content-B{
-        width: 55%;
-        float: right;
-    }
-
-    .content-B img{
-        width:100%;
-    }
-
 }
 
-/*------------------------------STYLE FOR PAGE CONTENT-------------------------------------*/
-.content {
-    padding:.5rem;
-}
-
-.content-A{
-    padding:.5rem;
-}
-
-.content-A p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*------------------table css---------------------------------*/
+.content h3{
     color:#2E2E57;
-    font-size: 25px;
-    line-height: 2rem;
+    margin-left: 1rem;
 }
 
-.content-A button{
+table{
+    border-collapse: collapse;
+    margin-top:20px;
+    margin-left:1rem;
+}
+
+table,tr,th{
+    border: 1px solid  #F0F0F0 ;
+    height: 50px;
+    text-align: center;
+    padding:15px;
+}
+
+table,tr, td{
+    border: 1px solid  #F0F0F0 ;
+    vertical-align: bottom;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.btn-approve{
+    background-color:skyblue;
+    color:white;
     font-weight: bold;
-    color: white;
-    background-color: #355ADF;
-    border: 0;
-    padding: 15px;
+    font-family:  Arial, Helvetica, sans-serif;
+    padding:.5rem;
+    border: 1px solid skyblue; 
     border-radius: .5em;
 }
 
-.content-A button a{
-    text-decoration: none;
+.btn-reject{
+    background-color: orange;
+    color:white;
     font-weight: bold;
-    color: white;
-}
-
-.content-B{
+    font-family:  Arial, Helvetica, sans-serif;
     padding:.5rem;
+    border: 1px solid orange;
+    border-radius: .5em;
 }
 
-.content-B img{
-    width: 100%;
+.btn-resolved{
+    background-color:red;
+    color:white;
+    font-weight: bold;
+    font-family:  Arial, Helvetica, sans-serif;
+    padding:.5rem;
+    border: 1px solid red;
+    border-radius: .5em;
 }
-
-/*--------------------styling for footer---------------------------------*/
 
 .footer p{
     text-align: center;
